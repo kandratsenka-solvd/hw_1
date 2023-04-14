@@ -1,8 +1,8 @@
 package utils;
 
 
-public class SelectionSort {
-    public static void selectionSort(int[] arr) {
+public class SelectionSortUtil {
+    public static void sortIntArray(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
             int minIndex = i;

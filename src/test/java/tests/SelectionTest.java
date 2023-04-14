@@ -1,7 +1,7 @@
 package tests;
 
 import org.testng.annotations.Test;
-import utils.SelectionSort;
+import utils.SelectionSortUtil;
 
 import java.util.Arrays;
 
@@ -9,8 +9,8 @@ public class SelectionTest {
 
     @Test
     public static void testSelectionAlgorithm() {
-        int[] arr = {3, -58, 100, -11, 0 , 999, 1};
-        SelectionSort.selectionSort(arr);
-        System.out.println(Arrays.toString(arr));
+        int[] intArray = {3, -58, 100, -11, 0, 1, 999, 1};
+        SelectionSortUtil.sortIntArray(intArray);
+        System.out.println(Arrays.toString(intArray));
     }
 }
